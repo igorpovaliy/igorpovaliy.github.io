@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Свой канал в MAX за один вечер — бесплатный гайд</title>
+<meta name="description" content="Пошаговый гайд: как создать и оформить канал в мессенджере MAX, что написать в первых постах и где найти первых подписчиков.">
+<meta property="og:title" content="Свой канал в MAX за один вечер">
+<meta property="og:description" content="Создать, оформить, написать первые 5 постов и найти первых подписчиков — пошагово и простым языком.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",Roboto,Arial,sans-serif;background:#F4F6FB;color:#1E2633;font-size:18px;line-height:1.6}
+a{color:#5B3FE0}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#2B1B8F,#5B3FE0 55%,#8A5CF6);color:#fff;padding:56px 0 64px}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);border-radius:30px;padding:6px 16px;font-size:15px;font-weight:600;letter-spacing:.3px}
+h1{font-size:44px;line-height:1.12;margin:20px 0 16px}
+.sub{font-size:20px;opacity:.92;max-width:640px}
+.chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.chip{background:#fff;color:#2B1B8F;border-radius:16px;padding:12px 18px;min-width:150px}
+.chip b{display:block;font-size:26px;line-height:1.1}
+.chip span{font-size:15px;color:#4A5568}
+main{padding:10px 0 40px}
+section{background:#fff;border-radius:22px;padding:34px 34px 30px;margin:22px 0;box-shadow:0 6px 24px rgba(30,38,51,.06);scroll-margin-top:16px}
+h2{font-size:28px;line-height:1.2;margin-bottom:14px;color:#151B26}
+h2 .n{display:inline-block;background:#EEE9FF;color:#5B3FE0;border-radius:10px;padding:0 10px;margin-right:10px;font-size:22px;vertical-align:3px}
+h3{font-size:20px;margin:20px 0 8px;color:#151B26}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 14px 24px}
+li{margin:6px 0}
+.toc ol{columns:2;column-gap:30px;margin-left:22px}
+.toc li{break-inside:avoid}
+.toc a{text-decoration:none;color:#1E2633;border-bottom:1px dashed #B9AEF5}
+.note{background:#FFF7E6;border-left:5px solid #F5A524;border-radius:10px;padding:14px 18px;margin:14px 0;font-size:16.5px}
+.tip{background:#EEE9FF;border-left:5px solid #5B3FE0;border-radius:10px;padding:14px 18px;margin:14px 0}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}
+.card{border:1px solid #E1E5EE;border-radius:16px;padding:18px 20px}
+.card h3{margin-top:0}
+.card ul{margin-bottom:0}
+.steps{counter-reset:s;list-style:none;margin-left:0}
+.steps li{counter-increment:s;position:relative;padding-left:48px;margin:12px 0}
+.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;background:#5B3FE0;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:16px}
+.formula{background:#151B26;color:#fff;border-radius:14px;padding:16px 20px;margin:12px 0;font-size:18px}
+.formula i{color:#C4B5FD;font-style:normal}
+.posts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px}
+.post{border:1px solid #E1E5EE;border-radius:14px;padding:14px 16px;font-size:16.5px;line-height:1.45}
+.post b{display:block;font-size:17.5px;margin-bottom:4px;color:#151B26}
+.post em{font-style:normal;color:#5B3FE0;font-weight:700;margin-right:6px}
+.check{list-style:none;margin-left:0}
+.check li{position:relative;padding-left:36px}
+.check li:before{content:"";position:absolute;left:0;top:5px;width:20px;height:20px;border:2px solid #5B3FE0;border-radius:6px}
+.author{display:flex;gap:20px;align-items:center}
+.ava{flex:0 0 84px;height:84px;border-radius:50%;background:linear-gradient(135deg,#5B3FE0,#8A5CF6);color:#fff;font-size:34px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.final{background:linear-gradient(135deg,#2B1B8F,#5B3FE0);color:#fff;text-align:center}
+.final h2{color:#fff}
+.btn{display:inline-block;margin-top:14px;background:#fff;color:#2B1B8F;font-weight:800;font-size:20px;text-decoration:none;border-radius:40px;padding:18px 38px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.btn:hover{transform:translateY(-2px)}
+.small{font-size:14.5px;color:#6B7486}
+.final .small{color:rgba(255,255,255,.75)}
+footer{text-align:center;padding:10px 20px 40px}
+@media(max-width:640px){
+  body{font-size:17px}
+  header{padding:40px 0 46px}
+  h1{font-size:32px}
+  .sub{font-size:18px}
+  .chip{min-width:0;flex:1 1 40%}
+  section{padding:24px 20px 20px;border-radius:18px}
+  h2{font-size:23px}
+  .toc ol{columns:1}
+  .cmp,.posts{grid-template-columns:1fr}
+  .author{flex-direction:column;text-align:center}
+  .btn{width:100%;padding:18px 20px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="badge">🎁 Бесплатный гайд для подписчиков</span>
+    <h1>Свой канал в MAX за один вечер</h1>
+    <p class="sub">Как создать канал, оформить его так, чтобы хотелось подписаться, написать первые посты и позвать первых читателей. Простым языком, без «продюсеров» и платной рекламы.</p>
+    <div class="chips">
+      <div class="chip"><b>15 минут</b><span>чтобы прочитать</span></div>
+      <div class="chip"><b>7 шагов</b><span>от нуля до канала</span></div>
+      <div class="chip"><b>5 постов</b><span>готовые идеи</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section class="toc">
+  <h2>Что внутри</h2>
+  <ol>
+    <li><a href="#why">Зачем канал в MAX</a></li>
+    <li><a href="#types">Какой канал можно создать</a></li>
+    <li><a href="#create">Создаём канал за 5 минут</a></li>
+    <li><a href="#design">Название, аватар, описание</a></li>
+    <li><a href="#posts">Первые 5 постов</a></li>
+    <li><a href="#rhythm">Ритм и полезные функции</a></li>
+    <li><a href="#people">Где взять первых подписчиков</a></li>
+    <li><a href="#mistakes">Частые ошибки</a></li>
+    <li><a href="#task">Задание на вечер</a></li>
+    <li><a href="#next">Что дальше</a></li>
+  </ol>
+</section>
+
+<section id="why">
+  <h2><span class="n">1</span>Зачем канал в MAX</h2>
+  <p>MAX — российский мессенджер, которым пользуется всё больше людей: его ставят на новые телефоны, через него работают госуслуги, школы и многие компании. Значит, ваши будущие читатели уже там.</p>
+  <ul>
+    <li><b>Меньше конкуренции.</b> Площадка молодая: тех, кто пишет полезно и регулярно, пока немного — заметить вас проще.</li>
+    <li><b>Читатель всегда под рукой.</b> Пост приходит прямо в мессенджер, рядом с чатами — его не нужно искать в ленте.</li>
+    <li><b>Ничего не нужно уметь.</b> Канал создаётся с телефона, без сайта и программ.</li>
+  </ul>
+  <div class="tip">Канал не обязан быть «бизнесом». Это может быть дневник вашего хобби, советы по вашей профессии, рецепты, ремонт, учёба — всё, о чём вам интересно рассказывать.</div>
+</section>
+
+<section id="types">
+  <h2><span class="n">2</span>Какой канал можно создать</h2>
+  <p>В MAX два вида каналов. Отличаются они тем, как вас находят люди.</p>
+  <div class="cmp">
+    <div class="card">
+      <h3>🔒 Приватный</h3>
+      <ul>
+        <li>Может создать почти любой пользователь</li>
+        <li>Подписываются только по вашей ссылке-приглашению</li>
+        <li>В общем поиске канал не виден</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🌐 Публичный</h3>
+      <ul>
+        <li>Виден в поиске, подписаться может любой</li>
+        <li>Короткая ссылка вида max.ru/имя_канала</li>
+        <li>Нужна проверка: для авторов — через бот «Каналы в MAX», для бизнеса — через business.max.ru</li>
+      </ul>
+    </div>
+  </div>
+  <div class="tip"><b>Совет:</b> начните с приватного. Он создаётся за минуту, а первых подписчиков вы всё равно будете звать по ссылке. Когда канал наберёт ход — оформите публичный.</div>
+  <div class="note">MAX быстро меняет правила: кто и как может открыть публичный канал, какие нужны подтверждения. Перед стартом загляните в настройки приложения или в официальную справку MAX — там всегда актуальные условия.</div>
+</section>
+
+<section id="create">
+  <h2><span class="n">3</span>Создаём канал за 5 минут</h2>
+  <ol class="steps">
+    <li><b>Обновите приложение MAX</b> до последней версии — в старых версиях кнопки создания канала может не быть.</li>
+    <li>Откройте раздел <b>«Чаты»</b> и нажмите <b>«+»</b>.</li>
+    <li>Выберите <b>«Создать канал»</b> (для приватного — «Приватный канал»).</li>
+    <li>Введите <b>название</b> и <b>описание</b> — подсказки, как их написать, в следующем разделе. Их можно поменять в любой момент.</li>
+    <li>Поставьте <b>аватар</b> и нажмите «Создать».</li>
+    <li>Откройте настройки канала и <b>скопируйте ссылку-приглашение</b> — по ней будут подписываться люди.</li>
+    <li>Напишите <b>первый пост</b> до того, как кого-то звать. Пустой канал выглядит заброшенным.</li>
+  </ol>
+</section>
+
+<section id="design">
+  <h2><span class="n">4</span>Название, аватар, описание</h2>
+  <p>Человек решает, подписаться или нет, за пару секунд. Он видит только три вещи — их и делаем хорошо.</p>
+
+  <h3>Название: понятно, о чём канал</h3>
+  <p>Лучше «Электрик Игорь: ремонт без сюрпризов», чем «Igor_Light_Pro». Если в названии есть тема — по нему вас найдут в поиске.</p>
+  <div class="formula"><i>[Кто вы или имя]</i> : <i>[о чём канал простыми словами]</i></div>
+
+  <h3>Аватар: ваше лицо или простой значок</h3>
+  <p>Живое фото, где хорошо видно лицо, вызывает больше доверия. Аватар маленький — никаких мелких надписей, они не читаются.</p>
+
+  <h3>Описание: 2–3 строки</h3>
+  <div class="formula">Здесь я <i>[что делаю]</i>, чтобы вы <i>[какая польза читателю]</i>. Пишу <i>[как часто]</i>.</div>
+  <p class="small">Пример: «Здесь я рассказываю, как сделать электрику в квартире без переделок, чтобы вы не переплачивали мастерам. Пишу 3 раза в неделю».</p>
+</section>
+
+<section id="posts">
+  <h2><span class="n">5</span>Первые 5 постов</h2>
+  <p>Эти пять постов закрывают главные вопросы нового читателя: кто вы, чем полезны и почему вам можно верить. Закрепите первый пост — его увидит каждый, кто зайдёт в канал.</p>
+  <div class="posts">
+    <div class="post"><b><em>01</em>Знакомство</b>Кто вы, о чём будет канал и что получит читатель. Закрепите этот пост.</div>
+    <div class="post"><b><em>02</em>Польза сразу</b>Один совет, который можно применить сегодня. Коротко и по делу.</div>
+    <div class="post"><b><em>03</em>История</b>Случай из жизни или работы: что пошло не так и чему это научило.</div>
+    <div class="post"><b><em>04</em>Вопрос читателям</b>«О чём рассказать в первую очередь?» — люди охотно отвечают, а вы узнаёте темы.</div>
+    <div class="post"><b><em>05</em>Подборка</b>«5 ошибок новичков в …» или «3 вещи, которые я бы сделал иначе». Такие посты сохраняют и пересылают.</div>
+  </div>
+  <div class="tip">Пишите так, как рассказали бы другу. Короткие абзацы, одна мысль в посте, фото или картинка — где уместно.</div>
+</section>
+
+<section id="rhythm">
+  <h2><span class="n">6</span>Ритм и полезные функции</h2>
+  <ul>
+    <li><b>2–3 поста в неделю</b> лучше, чем 10 постов за день и тишина месяц. Регулярность важнее количества.</li>
+    <li><b>Отложенные посты.</b> Напишите несколько постов в выходной и поставьте их на нужные дни — канал будет жить, даже когда вы на работе.</li>
+    <li><b>Статистика канала</b> (в настройках канала): сколько людей подписалось и отписалось, сколько просмотров у постов. Раз в неделю смотрите, какие посты читают лучше, — и пишите больше на эти темы.</li>
+    <li><b>Помощник.</b> Можно назначить администратора — например, близкого человека, который будет выкладывать посты, пока вы заняты.</li>
+  </ul>
+  <div class="note">Заработок на канале в MAX пока только запускается: например, Яндекс тестирует рекламу в каналах от 1000 подписчиков. Не ставьте деньги первой целью — сначала аудитория и доверие.</div>
+</section>
+
+<section id="people">
+  <h2><span class="n">7</span>Где взять первых подписчиков</h2>
+  <p>Первые 100 человек почти всегда приходят от тех, кто вас уже знает. Это нормально — с этого начинают все.</p>
+  <ol>
+    <li><b>Контакты в телефоне и знакомые.</b> Не рассылка «подпишись», а личное сообщение: «Завёл канал про …, буду рад, если глянешь».</li>
+    <li><b>Ваши клиенты и коллеги.</b> Им польза канала нужнее всего.</li>
+    <li><b>Другие соцсети.</b> Ссылка на канал в профиле ВКонтакте, Дзене, Одноклассниках, в подписи к постам.</li>
+    <li><b>Чаты по интересам.</b> Отвечайте на вопросы по делу, а ссылку на канал оставляйте, только если это разрешено правилами чата.</li>
+    <li><b>QR-код.</b> На визитке, на двери офиса, на чеке — сделать QR-код из ссылки можно бесплатно.</li>
+    <li><b>Знакомые авторы.</b> Договоритесь рассказать друг о друге — работает лучше, если темы каналов близки.</li>
+  </ol>
+</section>
+
+<section id="mistakes">
+  <h2><span class="n">8</span>Частые ошибки</h2>
+  <ul>
+    <li><b>Звать людей в пустой канал.</b> Сначала 3–5 постов, потом приглашения.</li>
+    <li><b>Писать «для всех».</b> Канал «обо всём» никому не нужен. Одна тема — один понятный читатель.</li>
+    <li><b>Только реклама своих услуг.</b> Правило простое: на 1 пост «купите» — минимум 4 полезных.</li>
+    <li><b>Ждать идеального поста.</b> Лучше выложить хороший пост сегодня, чем идеальный никогда.</li>
+    <li><b>Бросить через две недели.</b> Каналы растут медленно в начале и быстрее потом. Дайте себе хотя бы 2 месяца.</li>
+  </ul>
+</section>
+
+<section id="task">
+  <h2><span class="n">9</span>Задание на вечер</h2>
+  <p>Отметьте пункты по ходу — к концу вечера канал будет готов.</p>
+  <ul class="check">
+    <li>Обновил(а) MAX и создал(а) канал</li>
+    <li>Придумал(а) название по формуле «кто + о чём»</li>
+    <li>Поставил(а) аватар с лицом</li>
+    <li>Написал(а) описание в 2–3 строки</li>
+    <li>Выложил(а) и закрепил(а) пост-знакомство</li>
+    <li>Запланировал(а) ещё 2 поста на эту неделю</li>
+    <li>Отправил(а) ссылку 10 знакомым лично</li>
+  </ul>
+</section>
+
+<section>
+  <div class="author">
+    <div class="ava">И</div>
+    <div>
+      <h2 style="margin-bottom:6px">Кто написал гайд</h2>
+      <p>Игорь Повалий. Работаю электриком, а в свободное время делаю сайты и полезные инструменты с помощью нейросетей и рассказываю об этом простым языком — без сложных терминов и «волшебных кнопок».</p>
+    </div>
+  </div>
+</section>
+
+<section id="next" class="final">
+  <h2>Что дальше</h2>
+  <p>В моём канале в MAX — продолжение: как писать посты быстрее с помощью нейросетей, как сделать себе простой сайт бесплатно и не бросить канал через месяц.</p>
+  <a class="btn" href="https://max.ru/channel_igorpovaliy">Подписаться на канал в MAX</a>
+  <p class="small" style="margin-top:14px">Бесплатно. Отписаться можно в один клик.</p>
+</section>
+
+</main>
+
+<footer class="small">Условия и функции MAX могут меняться — актуальные правила смотрите в приложении и официальной справке MAX.</footer>
+
+</body>
+</html>
